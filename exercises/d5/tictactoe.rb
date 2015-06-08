@@ -16,6 +16,7 @@
 # After trying to do this problem without classes for about an hour, 
 # i realized that was dumb so i decided to make a board class and really
 # look up how to use arrays more efficiently. 
+# also, not using methods before was a terrible idea. 
 
 class Board
 
@@ -31,6 +32,8 @@ class Board
          "7 | 8 | 9"
     print "\n"
   end
+
+# looking up more functionality of arrays really helped here. 
 
   def print_board
     (0..2).each do |row|
