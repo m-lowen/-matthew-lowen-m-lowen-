@@ -1,0 +1,20 @@
+Exercise 1 
+
+1. git init initializes a repository. 
+2. git add adds modified files to be committed later to a repository (github.com)
+	commit records the changes selected with add
+3. staged files are selected and organized before they can be committed, gets 		ready for the commit. Committed files are actually sent
+4. git commit -am "<commit message>"
+5. remove staged file with   git reset HEAD <file>, go to old committed version 	with git checkout "" file/to/restore
+6. It helps to keep your work easy to understand and is helpful to look back and 
+	see what each commit was trying to achieve. 
+7. git resent --hard "that commit"
+8. hit the esc key, then q to quit. 
+
+Exercise 2
+
+1. git is a local repository that can store commits on my own computer, where 		Github is an online repository that pushes my commits to their servers so 		they are safe in the cloudz.
+	git could exist without GitHub because my files could just stay in a local repository but GitHub needs git to push my files to their website.
+2. Because it hosts the code of so many developers and allows us to share our 		code with partners in order to work more efficiently as a group and provides 	for excellent security, version control across multiple contributors. 
+3. git push moves the files from a local repository, that have been committed 		already, into an online repository (GitHub).
+4. git pull incorporates changes from a remote repository (GitHub) and then 		merges it into the working branch you are on. It essentially performs git 		fetch and git merge in a single command. 
