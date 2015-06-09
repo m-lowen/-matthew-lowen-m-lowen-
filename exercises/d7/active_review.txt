@@ -1,0 +1,12 @@
+ActiveReview
+
+.all - returns all instances of that class in an array.
+.first - returns the first instance of that class.
+.new - creates an instance of a certain class.
+.find - searches through a database and finds certain information based on the parameters given. 
+.find_by - is a shortcut for searching by an attribute (name, id, etc)
+.where - similar to find_by, and searches by specific parameters. 
+.save - once a .new (row) is created then you use .save to actually save that info to the database. 
+.update-attributes - pretty self explanatory
+.destroy - ^, but must be done on a specific instance.
+

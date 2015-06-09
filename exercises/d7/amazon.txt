@@ -1,0 +1,19 @@
+farther down the rabbit hole ....
+
+
+1. 	A. user searching, searching probably should be a its own model...
+		something like /search/body="baseball glove"
+	B. to find item price 
+		/item/price/1 (for item one)
+	C. quanity of an item in a cart
+		/cart/item_id=1/quantity
+
+2. A. User_controller
+   B. Item_controller
+   C. Cart_controller
+
+this should generally correlate with a resource but there a re times when the full functionality of a resource is not required
+
+3.  A. should show an idex of differnt items, a list, because a seach 		should try to return more than one item. 	
+	B. This should be a show, with the parameter of price which should be included in each instance of item
+	C. This should also return an index because the cart could have more than one item in it. 
