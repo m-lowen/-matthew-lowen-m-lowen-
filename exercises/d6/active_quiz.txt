@@ -1,4 +1,4 @@
-active_quiz.txt
+xactive_quiz.txt
 
 1. A database is a place that holds information in a logical way. This can be an excel document or a set of stables stored on servers on the cloud, for example. 
 2. A way to hold data in a way that groups relevant information, in a set of columns and rows. They are an easy way to visualize the data, a good example is excel. Or sql data tables. 
