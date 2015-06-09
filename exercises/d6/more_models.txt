@@ -1,0 +1,58 @@
+more_models.txt
+
+1. 
+	1. Login page
+	2. Home page
+	3. Shopping cart
+	4. Settings page
+	5. Search menu
+	6. Individual item page
+	7. Checkout Pages
+2. 
+	1. User id
+	2. Credit card info
+	3. User address
+	4. User email addresses
+	5. Past Purchases
+	6. Item price
+	7. Item stock
+	8. Item retailer
+	9. Prime eligible?
+	10. Customer reviews
+3. 
+	User
+		1. Can search for specific items
+		2. Can search by category
+		3. Can item to wishList/ cart
+		4. Can write a review
+		5. They can checkout
+		6. User can rate the item
+	Item
+		1. Provides "recommended for you"
+		2. Item provides the price
+		3. Update the quantity availible 
+		4. View item from the cart
+4. 
+	User
+		id
+		name
+		email
+		credit_card_number
+	Item
+		id
+		name
+		price
+		retailer
+		stock quantity
+	Shopping Cart (Join Table)
+		cart_id
+		item_id
+		quantity
+
+5.
+	1. "Shopping cart belongs to one user"
+	2. "Manys items can belong in many shopping carts"
+	3. 
+
+
+

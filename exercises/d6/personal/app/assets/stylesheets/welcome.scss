@@ -1,0 +1,56 @@
+      body {
+      text-align: center;
+      background: url(http://i.imgur.com/XSzhr06.jpg);
+      background-size: cover;
+      background-position: center;
+      color:white;
+      font-family: helvetica;
+      }
+    p {
+      font-size: 32px;
+      
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    img {
+      width: 170px;
+      height: 220px;
+      border: 5px solid black;
+  
+      
+    }
+    h1 {
+    color: black;
+    font-family: helvetica;
+    } 
+    .boxed {
+      border: 8px solid navy;
+      color: white;
+      background-color: rgba(0,0,0,.7);
+      text-align: left;
+      font-family: helvetica;
+      font-size: 18;
+      font: bold;
+      width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    a {
+      color: white;
+      font-size: 18px;
+    }
+    .boxed1 {
+      background-color: rgba(0,0,0,.8);
+      /*max-width: 150px; */
+      width: 30%;
+      display: block;
+      margin: 0 auto;
+    }
+  

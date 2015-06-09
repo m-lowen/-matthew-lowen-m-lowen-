@@ -18,3 +18,18 @@ Exercise 2
 2. Because it hosts the code of so many developers and allows us to share our 		code with partners in order to work more efficiently as a group and provides 	for excellent security, version control across multiple contributors. 
 3. git push moves the files from a local repository, that have been committed 		already, into an online repository (GitHub).
 4. git pull incorporates changes from a remote repository (GitHub) and then 		merges it into the working branch you are on. It essentially performs git 		fetch and git merge in a single command. 
+
+Exercise 4
+
+1. A request comes from the client, and it is the url that maps to a specific 		website. The request is than converted to an IP address throught the DNS and 	follows a path of nodes across the internet until it reaches the desired IP.
+2. This IP lives on a server somewhere and has a specific number 111.11.1.11 
+3. Once it has arrived, a web application takes in the url string, which often contains parameters for the application, and sends back a response which can be an HTML file, json, or some other reponse.
+4. Once the response is recieved, the web browser, or mobile browser inteprets the HTML or json and converts that to readable text or a beatiful webpage. 
+
+Exercise 5
+
+1. An error message appears, 404. 
+2. It means that the url specified does not match to any real website on a server 		at that location.
+3. Ruby still rocks, rafi just hasn't made a page to shout it to the world yet. 
+
+ 

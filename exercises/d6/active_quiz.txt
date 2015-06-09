@@ -1,0 +1,15 @@
+active_quiz.txt
+
+1. A database is a place that holds information in a logical way. This can be an excel document or a set of stables stored on servers on the cloud, for example. 
+2. A way to hold data in a way that groups relevant information, in a set of columns and rows. They are an easy way to visualize the data, a good example is excel. Or sql data tables. 
+
+3. Tweets
+
+id | content | time_created | user_id | location
+ 1 | "iX!!"  |    17:32     |    1    | cape town
+
+ 4. They help us reprensent data in a way that acts as a middle man between what we as humans understand and what the computer can understand. 
+ 5. ActiveRecord is object-relational mapping, which means it relates one row of a table to one instance of an object in ruby. 
+ 6. a database is just the data layed out in a way that relates different pieces of data to itself, a resource is similar to active record except instead of being backed by a database it is backed by another application through an API, and finally, ActiveRecord is the linking of objects in ruby to the rows of table in a database. 
+
+    
