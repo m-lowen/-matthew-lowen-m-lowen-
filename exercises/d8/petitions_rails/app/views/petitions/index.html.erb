@@ -1,0 +1,21 @@
+
+
+<h1> Check out these petitions  </h1>
+
+<ol>
+<% @petitions.each do |petition| %>
+  <li><%= petition[:title]%></li>
+  <br>
+  	<ul>
+		<li><b>body:</b> <%= petition[:body]%> </li>
+	
+	
+		<li><b>URL:</b> <%= petition[:url]%> </li>
+		<li><b>deadline:</b> <%= petition[:deadline]%></li>
+		<li><b>status:</b> <%= petition[:status]%> </li>
+		<li><b>created:</b> <%= petition[:created]%> </li>
+		<li><b>signature count:</b> <%= petition[:signatureCount]%> </li>
+		</ul>
+		<br>
+<% end %>
+</ol>
